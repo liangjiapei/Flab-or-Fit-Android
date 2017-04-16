@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainBG"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ca5f5"
+    android:orientation="vertical"
+    tools:context="com.liangjiapei.flaborfit.DetailsActivity">
+
+    <TextView
+        android:id="@+id/exerciseTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Weight Lifting"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/exerciseImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/weight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#20000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Mark it complete!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete set 1"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete set 2"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete set 3"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete set 4"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="100dp"
+            android:text="Complete set 5"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:buttonTint="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>
